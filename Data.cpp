@@ -22,10 +22,10 @@ void refreshData(int dataMode, int dataTime)
 				float xx = (x - (DATA_SIZE_X - 1) / 2.0) / (DATA_SIZE_X - 1) * 2.0;
 				float yy = (y - (DATA_SIZE_Y - 1) / 2.0) / (DATA_SIZE_Y - 1) * 2.0;
 				float zz = (z - (DATA_SIZE_Z - 1) / 2.0) / (DATA_SIZE_Z - 1) * 2.0;
-				float a = dataMode * 1.0;
-				float b = dataTime / 20.0;
-				float c = dataMode * 2.0;
-				float d = dataTime / 10.0;
+				float a = dataMode * 2.0;
+				float b = dataTime / 10.0;
+				float c = dataMode * 1.0;
+				float d = dataTime / 20.0;
 				float f = cos(M_PI * (xx * a + b)) * sin(M_PI * (yy * c + d));
 				if (f <= zz && f >= zz - 0.3)
 				{

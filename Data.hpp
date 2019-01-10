@@ -1,7 +1,7 @@
 //	Data dimension
-#define DATA_SIZE_X		80
-#define DATA_SIZE_Y		40
-#define DATA_SIZE_Z		30
+#define DATA_SIZE_X		120
+#define DATA_SIZE_Y		60
+#define DATA_SIZE_Z		60
 
 //	Standard includes
 #include <cmath>

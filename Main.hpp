@@ -1,6 +1,6 @@
 //	Screen dimension
-#define SCREEN_WIDTH	700
-#define SCREEN_HEIGHT	700
+#define SCREEN_WIDTH	1200
+#define SCREEN_HEIGHT	600
 
 //	Camera movement settings
 #define ROTATE_SPEED	5.0
