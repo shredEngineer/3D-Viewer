@@ -1,5 +1,5 @@
 //	Screen dimension
-#define SCREEN_WIDTH	1200
+#define SCREEN_WIDTH	800
 #define SCREEN_HEIGHT	600
 
 //	Camera movement settings
