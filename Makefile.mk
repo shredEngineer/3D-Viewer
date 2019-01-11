@@ -4,7 +4,7 @@ CC=g++
 SRC=$(wildcard *.cpp)
 
 CPPFLAGS=-std=c++11 -Wall -I"glfw\include"
-LDFLAGS=-static-libgcc -static-libstdc++ -L"glfw\lib" -Wl,-static -lglfw3 -lwinmm -lgdi32 -lopengl32
+LDFLAGS=-static-libgcc -static-libstdc++ -L"glfw\lib" -Wl,-static -lstdc++ -lwinpthread -lglfw3 -lwinmm -lgdi32 -lopengl32
 
 default: build start
 
