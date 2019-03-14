@@ -3,7 +3,7 @@
 
 OpenGL 3D development tutorial for 64-bit Windows.
 
-Blog post: [https://blog.paulwilhelm.de/opengl-fuer-noobs/](https://blog.paulwilhelm.de/opengl-fuer-noobs/)
+Blog post: [https://blog.paulwilhelm.de/opengl-tutorial/](https://blog.paulwilhelm.de/opengl-tutorial/)
 
 Animation: [https://paulwilhelm.de/images/3D-Viewer.webp](https://paulwilhelm.de/images/3D-Viewer.webp)
 
